@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #326fc9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 5vw 2vw 5vw;
+}
+
+.logo {
+    width: 10vw;
+    border-radius: 50%;
+    background-image: url('https://raw.githubusercontent.com/luthfianprasetya/Img/refs/heads/main/Tak%20berjudul1_20250814103415%7E5.png');
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4vw;
+    font-size: 4vw;
+}
+
+.bg { 
+    background-image: url('bg1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;  
+    height: 100svw;
+    padding: 0;
+    margin: 0;
+}
+
+.teks1 {
+    padding: 20vw 0 0 3vw;
+    color:white;
+}
+
+.teks2 {
+    padding: 13vw 0 0 3vw;
+    color:white;
+}
